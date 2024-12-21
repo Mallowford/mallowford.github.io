@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>
-      Mallowford Mellows
-    </title>
+    <title>Home | Mallowford Mellows</title>
     <meta charset="UTF-8">
     <meta name="application-name" content="Mallowford Mellows">
     <meta name="theme-color" content="b600ff">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
   </head>
   <main>
-    <nav>
-      <a href="/index.html">Home</a>
-      <a href="/pages/resume.html" target="_parent">Resume</a>
-      <a href="/pages/Projects">Projects</a>
-      <!-- <a href="pages/aboutme.html">About Me</a> | -->
-      <!-- <a href="/pages/contact">Contact Me</a> -->
+    <nav aria-label="Navigation Bar">
+      <a href="./index.html">Home</a>
+      <a href="./pages/resume.html">Resume</a>
+      <a href="./pages/projects/projects.html">Projects</a>
+      <div class="projects">
+        <div id="projectDropDown" class="dropdown-content">
+          <a href="./pages/projects/teammemoryleak.html">Team Memory Leak Website</a>
+        </div>
+      </div>
+      <div class="personal">
+        <a href="./pages/aboutme.html">About Me</a>
+        <a href="./pages/contact.html">Contact Me</a>
+      </div>
     </nav>
   </main>
   <body>
-    <h1>Hello World</h1>
+    <div class="front">
+      <h1>Hi, It's me <a href="./pages/aboutme.html">Ryan Hoang</a>.</h1>
+      <p>A student at <a href="https://www.ucr.edu" target="_blank">University of California - Riverside</a> and a part of <a href="">Team Memory Leak</a>.</p>
+      <img src="" width="" height="">
+    </div>
   </body>
   <footer>
-    <p>This Page is hosted by <a href="https://pages.github.com" target="_blank">Github Pages</a>. To contact me, please use this email: mallowford@gmail.com</p>
+    <p aria-label="Page is hosted by Pages via Github. To contact site owner, email mallowford@gmail.com">This Page is hosted by <a href="https://pages.github.com" target="_blank">Github Pages</a>. To contact me, please use this email: mallowford@gmail.com</p>
   </footer>
 </html>
