@@ -1,0 +1,21 @@
+/* GLOBAL */
+html {
+  box-sizing: border-box;
+}
+* *::before *::after {
+  box-sizing: inherit;
+}
+
+* {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+/* HOME */
+
+/* WIP */
+
+/* PROJECTS */
+
+/* CONTACT */
+
+/* ABOUTME */
